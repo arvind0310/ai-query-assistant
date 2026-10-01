@@ -1,0 +1,26 @@
+{
+  "name": "ai-query-assistant-frontend",
+  "version": "1.0.0",
+  "description": "React UI for the AI Query Assistant",
+  "author": "Arvind",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-markdown": "^10.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite": "^6.4.0"
+  },
+  "overrides": {
+    "rollup": "npm:@rollup/wasm-node@^4.40.0",
+    "esbuild": "npm:esbuild-wasm@^0.25.0"
+  }
+}
